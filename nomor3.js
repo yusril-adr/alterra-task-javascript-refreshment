@@ -1,9 +1,11 @@
-const foo = ['Budi', 'Sita', 'Ayu'];
+module.exports = () => {
+  const foo = ['Budi', 'Sita', 'Ayu'];
 
-const [a, b, c] = foo;
+  const [a, b, c] = foo;
 
-console.log(`
-  a : ${a},
-  b : ${b},
-  c : ${c},
-`);
+  console.log(`
+    a : ${a},
+    b : ${b},
+    c : ${c},
+  `);
+};
